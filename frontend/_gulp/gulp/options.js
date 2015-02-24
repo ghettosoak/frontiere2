@@ -45,12 +45,12 @@ module.exports = {
 	},
 
 	iconfont: {
-		src: 'svg/**/*.svg', // Relative to gulpfile.js
+		src: '../svg/*.svg', // Relative to gulpfile.js
 		dest: assets + '/fonts',
 		name: 'fonticons',
 		class: 'gfx',
 		template: 'gulp/utils/iconfont-template.less', // Relative to gulpfile.js
-		lessDest: 'less/scaffolding/', // Relative to gulpfile.js
+		lessDest: 'less/skeleton/', // Relative to gulpfile.js
 		rootPath: webassets + '/fonts/' // Relative to web root
 	}
 }
