@@ -1,5 +1,5 @@
 var assets = '../../assets'; // Relative to gulpfile.js
-var webassets = '/assets'; // Relative to webroot
+var webassets = 'assets'; // Relative to webroot
 
 module.exports = {
 
@@ -21,7 +21,7 @@ module.exports = {
 			'Opera >= 12',
 			'Safari >= 6'
 		],
-		sourceMapRoot: webassets + '/css/' // Relative to web root
+		sourceMapRoot: '/' + webassets + '/css/' // Relative to web root
 	},
 
 	// Browserify settings
@@ -50,7 +50,7 @@ module.exports = {
 		name: 'fonticons',
 		class: 'gfx',
 		template: 'gulp/utils/iconfont-template.less', // Relative to gulpfile.js
-		lessDest: 'less/skeleton/', // Relative to gulpfile.js
-		rootPath: webassets + '/fonts/' // Relative to web root
+		lessDest: '../less/skeleton/', // Relative to gulpfile.js
+		rootPath: '../../' + webassets + '/fonts/' // Relative to web root
 	}
 }
