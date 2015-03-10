@@ -16,3 +16,7 @@ Includes:
 - Most of bootstrap, because bower is for suckers
 - A handy dandy JS lib with functions I find myself using a lot
 - More empty folders than you can shake a stick at
+- A folder full(-ish) of useful commonly seen HTML structures (&& their applicable JS / CSS)
+ - folder is called '_structures'
+ - Said HTML / JS is commented out
+ - Please feel free to delete / use as you please

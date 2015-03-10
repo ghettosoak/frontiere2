@@ -5,6 +5,8 @@ require('./modules/core');
 
 // include your scripts here
 
+// require('./modules/textarea-autoresize'); 
+
 // expose your functions to the global scope for testing
 var mxm = {};
 
