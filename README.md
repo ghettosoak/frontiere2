@@ -20,3 +20,6 @@ Includes:
  - folder is called '_structures'
  - Said HTML / JS is commented out
  - Please feel free to delete / use as you please
+
+Known issues:
+- Sometimes gulp needs to be restarted to accept SVG files
