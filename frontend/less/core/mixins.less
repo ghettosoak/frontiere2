@@ -55,9 +55,22 @@
 .opacity(@howmuch){
 	opacity: @howmuch;
 	
-
 	.ie8 &{
 		@ie8opacity: @howmuch * 100;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=(@{ie8opacity}))";
 	}
 }
+
+// mmm is short for media mobile max :)
+.mmm(@rules) {
+	@media @mobile-max { @rules(); }
+	html.mobile &      { @rules(); }
+}
+
+// mtm is short for media tablet max :)
+.mtm(@rules) {
+	@media @tablet-max { @rules(); }
+	html.tablet &      { @rules(); }
+}
+
+

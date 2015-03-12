@@ -1,9 +1,9 @@
 {
-  "name": "frontiere",
-  "version": "0.0.1",
+  "name": "frontiere_v2",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuelsch/frontiere"
+    "url": "https://github.com/ghettosoak/frontiere2"
   },
   "description": "Project setup",
   "devDependencies": {

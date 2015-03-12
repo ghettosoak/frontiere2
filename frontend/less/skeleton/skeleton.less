@@ -1,3 +1,38 @@
-#master{
-	
+html,
+body{
+	height:100%;
+	color: @color-copy;
+	font-family: @standard;
+	font-weight: @light;
+	font-size: @base-font-size;
+	line-height: @base-line-height;	
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: @height_header;
+	width: 100%;
+	background-color: @color-brand;
+	color: @color-copy-contrast;
+}
+
+.main{
+	padding-top: @height_header;
+	min-height: 100%;
+	margin-bottom: -@height_footer;  
+
+	&:after {
+		content: "";
+		display: block;
+		height: @height_footer;		
+	}
+}
+
+.footer{
+	position: relative;
+	height: @height_footer;
+	background-color: @color-copy;
+	color: @color-copy-contrast;
 }

@@ -21,5 +21,13 @@ Includes:
  - Said HTML / JS is commented out
  - Please feel free to delete / use as you please
 
+Good to know:
+
+- '$$_' is the prefix to access the tasty core functions from whereever you are.
+- Define your the height of your sticky header in the window.scrollToHere function within core.js
+- window.mediaQueriesSupported requires a CSS one liner, can be found in skeleton.less
+- if you need to calculate your media query AFTER something is setup (eg, flexslider, etc), simply subscribe window.mediaQuery's initial calculate call to the pageSetup function
+
 Known issues:
 - Sometimes gulp needs to be restarted to accept SVG files
+

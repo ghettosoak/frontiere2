@@ -16,12 +16,14 @@
 </head>
 
 <body>
-	<div id="master">
 
+	<!-- #include file="frontend/views/shared/header.shtml" -->
+
+	<div class="main">
 		<!-- #include file="frontend/views/YOUR_FILE_HERE.shtml" -->
-
-		
 	</div>
+
+	<!-- #include file="frontend/views/shared/footer.shtml" -->
 
 <script type="text/javascript" src="assets/js/main.js"></script>
 

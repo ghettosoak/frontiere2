@@ -10,7 +10,7 @@ $(function() {
         },
         
         // let's debounce so we're not updating like crazy
-        debounceTextareaResize = window.debounce(textSet, 50)
+        debounceTextareaResize = $$_.debounce(textSet, 50)
 
     $textarea.on('keyup', function(e){
         debounceTextareaResize();
