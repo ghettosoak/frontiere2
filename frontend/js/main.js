@@ -1,7 +1,7 @@
 // Vendor files
 var $ = window.jQuery = window.$ = require('./vendor/jquery-1.11.1.min');
 
-var $$_ = window.$$_ = require('./modules/core'); 
+var $$_ = window.$$_ = require('./shared/core'); 
 
 // include your scripts here
 
@@ -12,5 +12,5 @@ var mxm = {};
 
 // init some things
 $(function($){
-	
+
 });
