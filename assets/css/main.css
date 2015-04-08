@@ -2129,6 +2129,14 @@ input[type="button"].btn-block {
     position: absolute;
   }
 }
+#img_stage {
+  position: fixed;
+  height: 1px;
+  width: 1px;
+  top: -1px;
+  right: -100%;
+  overflow: hidden;
+}
 h1,
 .h1 {
   font-size: 32px;
@@ -2183,6 +2191,8 @@ body {
 }
 .footer {
   position: relative;
+  float: left;
+  width: 100%;
   height: 30px;
   background-color: #444444;
   color: #ffffff;

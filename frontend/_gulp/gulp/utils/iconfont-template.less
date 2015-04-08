@@ -25,7 +25,7 @@
   line-height: inherit;
 }
 
-.<%= className %>{
+[class^="<%= className %>-"], [class*=" <%= className %>-"]{
   &:before, &.after:after{
     .font-styling();
   }

@@ -166,6 +166,10 @@ $(function() {
 			return mediaCurrent;
 		};
 
+		function is(query){
+			return mediaCurrent.indexOf(query) >= 0;
+		}
+
 		var calculateDebounce = exports.debounce(calculate, 200); 
 
 		$window.resize(calculateDebounce);
@@ -176,13 +180,50 @@ $(function() {
 
 		// exports.pageSetup.subscribe(calculate);
 
-		// Returnal  
+		// Returnal
 		//////////////////////////////////////////////////
 
 		return {
 			subscribe: subscribe,
-			getQuery: getQuery
+			getQuery: getQuery,
+			is: is
 		};
 	})(); 
+
+	exports.gMapLoader = (function() {
+
+		// Variables
+		//////////////////////////////////////////////////
+		var subscribers = [];
+
+		// Load Google Maps
+		//////////////////////////////////////////////////
+		gMapSetup = function() {
+			var script = document.createElement('script');
+			script.type = 'text/javascript';
+			script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' + 'callback=$$_.gMapLoader.ready';
+			document.body.appendChild(script)
+		};
+
+		function ready() {
+			for (var method in subscribers) {
+				subscribers[method]();
+			}
+		};
+
+		function subscribe(method) {
+			subscribers.push(method);
+		};
+
+		$(window).load(gMapSetup)
+
+		// Returnal
+		//////////////////////////////////////////////////
+
+		return {
+			ready: ready,
+			subscribe: subscribe
+		};
+	})();
 
 });

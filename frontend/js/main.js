@@ -5,7 +5,10 @@ var $$_ = window.$$_ = require('./shared/core');
 
 // include your scripts here
 
-require('./modules/textarea-autosize'); 
+// require('./shared/textarea-autosize'); 
+// require('./shared/img'); 
+// require('./shared/map'); 
+// require('./shared/parallax'); 
 
 // expose your functions to the global scope for testing
 var mxm = {};
