@@ -55,26 +55,16 @@ here are the basic constructors for google maps. set up a map, a marker and an i
 
 
 # TODO:
-//- drag n drop google maps implementation
-// - conditional loading!! :D
-// - w/ markers
-// - && infowindows
-
-- drag n drop radios
-- drag n drop checkboxes
-
 - search overlay
  - fake search results
-
-- ready for a styleguide! :c
 
 - off canvas mobile navigation
  - that can remember where you were when you opened it!
  - that opens and closes around the user's selection (subnav)
 
+- selectbox
+ - chosen? select2? selectize?
+
+- styleguide integration :c
+
 - textarea counts characters
-
-- selectböxli
-
-// - ( $$_.mediaQuery.getQuery().indexOf('mobile') === 0 )
- // - SO uncool :c
