@@ -6,25 +6,53 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>YOUR NAME HERE</title>
+    <title>YOUR PROJECT'S NAME HERE</title>
 
     <!-- <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" /> -->
 
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 </head>
 
 <body>
+<div id="master">
+	
 
-	<!-- #include file="frontend/views/shared/header.shtml" -->
+
+	<!--#include file="frontend/views/shared/header.shtml" -->
+	<!--#include file="frontend/views/shared/sidebar.shtml" -->
 
 	<div class="main">
 		<!-- #include file="frontend/views/YOUR_FILE_HERE.shtml" -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, tempora, fugiat? Rem provident enim velit voluptatem dignissimos cum fugit laborum nam tempora molestias delectus, est nostrum, quam dolorum saepe, tenetur!</p>
 	</div>
 
-	<!-- #include file="frontend/views/shared/footer.shtml" -->
+	<!--#include file="frontend/views/shared/footer.shtml" -->
 
+</div>
 <script type="text/javascript" src="assets/js/main.js"></script>
 
 </body>

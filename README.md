@@ -12,20 +12,29 @@ Phillip Gfeller is a beast. Go learn more about him here: https://github.com/tue
 5. done? run gulp
 6. boogie
 
+## Requires:
+- node v-Whatever
+- a thirst for blood
+- 
+
 ## Includes:
 
 - Most of bootstrap, because bower is for suckers
-- A handy dandy JS lib with functions I find myself using a lot
+- jQuery v1.11.1 because ie8 isn't dead yet (at least in switzerland)
+- Chosen v1.4.2 because selectize && select2 don't play nice with browserify and npm is a bit overkill for frontend (see above thoughts on bower)
+ - some super basic styles to get you up and running; I'll leave making it sing up to you
 - More empty folders than you can shake a stick at
 - A folder full(-ish) of useful commonly seen HTML structures (&& their applicable JS / CSS)
  - folder is called '_structures'
  - Said HTML / JS is commented out
  - Please feel free to delete / use as you please
- - if you happen edit any of the files in shared (outside of core), think about moving it into modules
+ - if you happen edit any of the JS files in shared (outside of core), think about moving it into modules
 
 ## Known issues:
 - Sometimes gulp needs to be restarted to properly accept SVG files
 - SVG paths MUST be compound paths, otherwise gulp will cry
+ - cmd / ctrl + 8 in illustrator
+- having problems with your font files loading? try making your paths a couple times larger
 
 # JS files in Shared
 
@@ -37,8 +46,8 @@ right now, this is called 'core.js', but it might be broadened into its own libr
 - instead of including an entire library, you can pick and choose what you want, and reference it a little bit quicker (not to mention a bit more modular with browserify). as such, it is designed to supplant the following:
  - modernizr
  - underscore
- - yes, I am that bold
-- a couple notes
+ - yes, I am that kind of arrogant, deal with it
+- a couple function-specific notes in lieu of proper documentation
  - mediaQueriesSupported requires a CSS one liner, can be found in general.less
  - if you need to calculate your media query AFTER something is setup (eg, flexslider, etc), simply subscribe $$_.mediaQuery's initial calculate call to the pageSetup function
  - Define your the height of your sticky header in the $$_.scrollToHere function
@@ -55,15 +64,12 @@ here are the basic constructors for google maps. set up a map, a marker and an i
 
 
 # TODO:
-- search overlay
- - fake search results
 
 - off canvas mobile navigation
  - that can remember where you were when you opened it!
  - that opens and closes around the user's selection (subnav)
 
-- selectbox
- - chosen? select2? selectize?
+- image slider, a la slick
 
 - styleguide integration :c
 

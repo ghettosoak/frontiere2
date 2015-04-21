@@ -1,14 +1,8 @@
 $(function() {
 
-	var _propertyCache = {};
+	// FEATURE TESTS
 
-	exports.map_range = function(value, low1, high1, low2, high2) {
-	    return (low2 + (high2 - low2) * (value - low1) / (high1 - low1)).toFixed(2);
-	}
-
-	exports.randomInt = function(min, max) {
-	    return Math.floor(Math.random() * (max - min + 1) + min);
-	}
+	var _propertyCache = {};	
 
 	exports.supportsSvg = function() {
 		if (!_propertyCache.supportsSvg){
@@ -50,7 +44,18 @@ $(function() {
 			return result;
 		}
 		else return _propertyCache.coverBackgroundSupported;
-	}; 
+	};
+	
+
+	// UTILITIES
+
+	exports.map_range = function(value, low1, high1, low2, high2) {
+	    return (low2 + (high2 - low2) * (value - low1) / (high1 - low1)).toFixed(2);
+	}
+
+	exports.randomInt = function(min, max) {
+	    return Math.floor(Math.random() * (max - min + 1) + min);
+	}
 
 	exports.scrollToHere = function(where, extra){
 		if (!extra) extra = 0;
